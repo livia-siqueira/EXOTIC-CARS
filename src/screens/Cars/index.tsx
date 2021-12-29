@@ -11,7 +11,7 @@ export const Home = () => {
 
     return (
         <s.Container> 
-            <Header/>
+            
             <s.Content>
             </s.Content>
             </s.Container>
