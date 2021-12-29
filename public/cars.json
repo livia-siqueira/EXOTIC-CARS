@@ -1,0 +1,334 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "https://i.ibb.co/yNXhcSx/logoFerrari.png",
+            "cover_photo": "https://i.ibb.co/2cVrQBd/ferrari-PNG10674.png",
+            "cover_photo_upgrade": "https://i.ibb.co/2cVrQBd/ferrari2x.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "https://i.ibb.co/x1mYnZz/ferraiRedDetails.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": "https://i.ibb.co/85kxks1/FerrariAmarelaDetails.png"
+                },
+                {
+                    "color": "gray",
+                    "photo": "https://i.ibb.co/kDZCRvB/FerraiCinzaDetails.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "coverphoto": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        }
+        ,  {
+            "id": 8,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },  {
+            "id": 9,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },  {
+            "id": 10,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "model": "California",
+            "brand": "Ferrari",
+            "price": "725",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        }
+        
+    ]
+}
