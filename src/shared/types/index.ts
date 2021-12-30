@@ -15,7 +15,8 @@ export type Car = {
      price: number,
      logo_brand: string,
      photos: Photo[],
+     capa: string,
      photoBrand: string,
-     coverPhoto: string,
+     cover_photo: string,
      cover_photo_upgrade: string
 }

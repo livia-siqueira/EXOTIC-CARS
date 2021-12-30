@@ -1,2 +1,5 @@
 export {IoCalendarSharp} from 'react-icons/io5'
 export {IoLocationSharp} from 'react-icons/io5'
+export {FiMoreHorizontal} from 'react-icons/fi'
+export {AiOutlineArrowLeft} from 'react-icons/ai'
+export {AiOutlineArrowRight} from 'react-icons/ai'

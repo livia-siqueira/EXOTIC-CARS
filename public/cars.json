@@ -6,30 +6,30 @@
             "brand": "Ferrari",
             "price": "725",
             "logo_brand": "https://i.ibb.co/yNXhcSx/logoFerrari.png",
-            "cover_photo": "https://i.ibb.co/2cVrQBd/ferrari-PNG10674.png",
+            "cover_photo": "https://i.ibb.co/nQy93vJ/Ferrari.png",
             "cover_photo_upgrade": "https://i.ibb.co/2cVrQBd/ferrari2x.png",
             "photos": [
                 {
                     "color": "red",
-                    "photo": "https://i.ibb.co/x1mYnZz/ferraiRedDetails.png"
+                    "photo": "https://i.ibb.co/vJ865Zy/CapaFerrariVermelha.png"
                 },
                 {
                     "color": "yellow",
-                    "photo": "https://i.ibb.co/85kxks1/FerrariAmarelaDetails.png"
+                    "photo": "https://i.ibb.co/x5Kyv2f/ferrariAmarela.png"
                 },
                 {
                     "color": "gray",
-                    "photo": "https://i.ibb.co/kDZCRvB/FerraiCinzaDetails.png"
+                    "photo": "https://i.ibb.co/SdMmhFb/ferraricinza.png"
                 }
             ]
         },
         {
             "id": 2,
-            "model": "California",
-            "brand": "Ferrari",
+            "model": "911 TURBO S",
+            "brand": "Porsche",
             "price": "725",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/5Gb5s8z/porsheLaranja.png",
             "photos": [
                 {
                     "color": "red",
@@ -47,11 +47,11 @@
         },
         {
             "id": 3,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "M1 COMPETITION",
+            "brand": "BMW",
+            "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "coverphoto": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/2FLvM5s/BMWBranca.png",
             "photos": [
                 {
                     "color": "red",
@@ -69,11 +69,11 @@
         },
         {
             "id": 4,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "911 GT3 RS",
+            "brand": "Porsche",
+            "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/MpPkxSG/porsheGT3.png",
             "photos": [
                 {
                     "color": "red",
@@ -91,11 +91,11 @@
         },
         {
             "id": 5,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "4C SPIDER",
+            "brand": "Alfa Romeo",
+            "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/Qdn0W8W/AlfaRomeoAmarelo.png",
             "photos": [
                 {
                     "color": "red",
@@ -113,11 +113,11 @@
         },
         {
             "id": 6,
-            "model": "California",
-            "brand": "Ferrari",
+            "model": "AMG GTS",
+            "brand": "Mercedes-benz",
             "price": "725",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/NZhLBHR/MercedesCinza.png",
             "photos": [
                 {
                     "color": "red",
@@ -135,11 +135,11 @@
         },
         {
             "id": 7,
-            "model": "California",
-            "brand": "Ferrari",
+            "model": "WRAITH",
+            "brand": "Rolls-Royce",
             "price": "725",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/cTrTdvT/RoyalVermelho.png",
             "photos": [
                 {
                     "color": "red",
@@ -157,11 +157,11 @@
         }
         ,  {
             "id": 8,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "AVENTADOR",
+            "brand": "Lamborghini",
+            "price": "925",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/Mn5N18b/lamborLaranja.png",
             "photos": [
                 {
                     "color": "red",
@@ -178,11 +178,11 @@
             ]
         },  {
             "id": 9,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "Hudray",
+            "brand": "Pagani",
+            "price": "925",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/kDZTdnw/pagani-verde.png",
             "photos": [
                 {
                     "color": "red",
@@ -199,11 +199,11 @@
             ]
         },  {
             "id": 10,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "CORVETT",
+            "brand": "Chevrolet",
+            "price": "925",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/16rvmG3/Corvet-Branco.png",
             "photos": [
                 {
                     "color": "red",
@@ -221,11 +221,11 @@
         },
         {
             "id": 11,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "P1 GTR",
+            "brand": "Mclaren",
+            "price": "925",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/QcrSWBw/mcLarenAzul.png",
             "photos": [
                 {
                     "color": "red",
@@ -243,11 +243,11 @@
         },
         {
             "id": 12,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "CONTINENTAL GT",
+            "brand": "Bentley",
+            "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/TkVMXZy/BekleyAzul.png",
             "photos": [
                 {
                     "color": "red",
@@ -265,11 +265,11 @@
         },
         {
             "id": 13,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "720S",
+            "brand": "Maclaren",
+            "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/L51NRFs/mclarenAzul-720s.png",
             "photos": [
                 {
                     "color": "red",
@@ -287,11 +287,11 @@
         },
         {
             "id": 14,
-            "model": "California",
-            "brand": "Ferrari",
-            "price": "725",
+            "model": "Gallardo",
+            "brand": "Lamborghini",
+            "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/3fpgM9N/Lamborghini-Gallardo-Amarelo.png",
             "photos": [
                 {
                     "color": "red",
@@ -309,11 +309,33 @@
         },
         {
             "id": 15,
-            "model": "California",
-            "brand": "Ferrari",
+            "model": "Mustang 2019",
+            "brand": "Ford",
             "price": "725",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
-            "cover_photo": "./imagesCar/ferrari_PNG10674.png",
+            "cover_photo": "https://i.ibb.co/Y028BHP/mustangpreto.png",
+            "photos": [
+                {
+                    "color": "red",
+                    "photo": "./imagesCar/01/Group 67.png"
+                },
+                {
+                    "color": "yellow",
+                    "photo": ""
+                },
+                {
+                    "color": "gray",
+                    "photo": ""
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "model": "VEYRON SPYDER",
+            "brand": "Bugatti",
+            "price": "925",
+            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "cover_photo": "https://i.ibb.co/Qj49tJ8/BuggatiAzul.png",
             "photos": [
                 {
                     "color": "red",
