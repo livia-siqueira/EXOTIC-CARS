@@ -65,6 +65,8 @@ export const Button = styled.button`
 
 export const Area_Change_Car = styled.div`
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 export const ButtonBack = styled.button`
