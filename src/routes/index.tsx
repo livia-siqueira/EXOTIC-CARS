@@ -1,6 +1,5 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import { DetailsCars } from "../screens/DetailsCars";
-import { Home } from "../screens/Cars/index";
+import {DetailsCars, Home} from '@screen/'
 
 export const RouterApp = () => {
   return (

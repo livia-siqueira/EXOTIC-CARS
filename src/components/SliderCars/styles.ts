@@ -9,7 +9,6 @@ export const Container = styled.div`
   width: 100%;
 `;
 
-
 export const Image = styled.img`
   position: absolute;
   left: 20%;
@@ -26,6 +25,11 @@ export const Slider = styled(Swiper)`
   .swiper-wrapper {
     align-items: center;
   }
+  @media(max-width: 300px){
+      width: 120px;
+      height: auto;
+      margin: 0 auto;
+  }
 `;
 
 export const Slide = styled.div`
@@ -34,6 +38,10 @@ export const Slide = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media(max-width: 360px){
+      width: 150px;
+      margin: 0;
+  }
 `;
 
 type Button = {
@@ -41,10 +49,10 @@ type Button = {
 };
 
 export const Item_Card = styled.div<image>`
-     width: ${({isActive}) => isActive ? '20rem' : '15rem'};
-  height: ${({isActive}) => isActive ? '15rem' : '11rem'};
-  margin-top: ${({isActive}) => isActive ? '-10%' : '0'};
-  //padding: 3.8rem;
+  width: ${({ isActive }) => (isActive ? "20rem" : "15rem")};
+  height: ${({ isActive }) => (isActive ? "15rem" : "11rem")};
+  margin-top: ${({ isActive }) => (isActive ? "-10%" : "0")};
+  padding: 3.8rem;
   border-radius: 0.8rem;
   box-shadow: 0px 2px 30px #0000001a;
   display: flex;
@@ -56,8 +64,7 @@ export const Item_Card = styled.div<image>`
     isActive
       ? "linear-gradient(90deg, #b9baf1 0%, #e0d3ef 100%)"
       : ({ theme }) => theme.colors.primary};
-
-`
+`;
 
 export const ButtonsSlider = styled.button<Button>`
   position: absolute;
@@ -71,9 +78,8 @@ export const ButtonsSlider = styled.button<Button>`
   box-shadow: 0px 5px 15px #0000001a;
   margin-left: 10%;
   margin-right: 10%;
-
 `;
 
 export const Container_Button = styled.button`
-    width: 80%;
-`
+  width: 80%;
+`;

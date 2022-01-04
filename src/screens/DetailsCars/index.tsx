@@ -30,7 +30,7 @@ export const DetailsCars = () => {
       <Header />
       <s.Content>
         <s.Container_Type>
-          <img src={urlBrand}/>
+          <s.ImageBrand src={urlBrand}/>
           <s.Container_Details>
             <s.Name>
               {carSelected?.brand} {carSelected?.model}
@@ -54,11 +54,11 @@ export const DetailsCars = () => {
               <AiOutlineArrowRight color="gray" size={24} />
             </s.Button>
           </s.Container_BookNow>
-          <s.Description>
+        </s.Container_Body>
+        <s.Description>
             <s.Number>0{carActive + 1}</s.Number>
             <s.Color>{carSelected?.photos[carActive].color}</s.Color>
           </s.Description>
-        </s.Container_Body>
         <s.Area_Change_Car>
           <SliderCars
             ImagesCar={carSelected ? carSelected.photos : null}

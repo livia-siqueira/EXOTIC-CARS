@@ -6,6 +6,7 @@ import { ItemCar } from "../../components/ItemCar";
 import { getCar } from "../../store/reducers/car";
 import { AppDispatch, RootState } from "../../store/types";
 import * as s from "./styles";
+import { Location } from "../../components/Location";
 
 export const Home = () => {
 

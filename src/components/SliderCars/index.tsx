@@ -17,6 +17,7 @@ export const SliderCars = (props: {
   const images = props.ImagesCar;
   const btNext = useRef<HTMLButtonElement>(null);
   const btPrev = useRef<HTMLButtonElement>(null);
+  const qtdImage = images ? images.length : 0;
 
   return (
     <>
@@ -36,7 +37,7 @@ export const SliderCars = (props: {
           loop={true}
           centeredSlides={images?.length === 2 ? false : true}
           slidesPerView={images?.length === 2 ? 2 : 1}
-          spaceBetween={46}
+          spaceBetween={qtdImage === 2 ? 20 : qtdImage === 3 ? 80 : 0}
           slideToClickedSlide
           onTransitionEnd={(swiper) => props.handleGoCar(swiper.realIndex)}
           navigation={{
@@ -46,8 +47,10 @@ export const SliderCars = (props: {
           breakpoints={{
             1000: {
               slidesPerView: images?.length,
-              width: 1000
             },
+            600: {
+                slidesPerView: images ? images.length - 1: 0,
+            }
           }}
         >
           {images?.map((imageDetails, index) => {

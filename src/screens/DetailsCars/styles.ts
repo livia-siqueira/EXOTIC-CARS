@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { AiOutlineArrowRight } from "../../shared/Icons/index";
 
 export const Container = styled.div`
   background: transparent
@@ -31,19 +30,37 @@ export const Container_Type = styled.div`
   width: 30%;
 `;
 
-export const Name = styled.h1``;
+export const ImageBrand = styled.img`
+  @media (max-width: 1400px) {
+    width: 100px;
+    height: 120px;
+  }
+`;
+
+export const Name = styled.h1`
+  @media (max-width: 1400px) {
+    font-size: 1rem;
+  }
+`;
 
 export const Price = styled.span`
   font-size: 2.3rem;
+  @media (max-width: 1400px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const Container_Body = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
 `;
 
-export const ImageUp = styled.img``;
+export const ImageUp = styled.img`
+  @media (max-width: 1400px) {
+    width: 380px;
+    height: 180px;
+  }
+`;
 
 export const Description = styled.div`
   display: flex;
@@ -51,8 +68,18 @@ export const Description = styled.div`
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-bottom: 25%;
+  bottom: 60%;
   right: 10%;
+
+  @media (max-width: 1000px) {
+    margin: 0;
+    margin-bottom: 50%;
+  }
+
+  @media (max-width: 1100px) {
+    right: 50%;
+    bottom: 65%;
+  }
 `;
 export const Number = styled.span`
   font-size: 3rem;
@@ -81,16 +108,18 @@ export const Button = styled.button<typeColorButton>`
   justify-content: space-evenly;
   color: ${({ theme, fullFilling }) =>
     fullFilling ? theme.colors.white : theme.colors.title_principal};
-
+  @media (max-width: 1400px) {
+    font-size: 12px;
+  }
 `;
 
 export const Container_BookNow = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  grid-template-rows: 1fr 0.2fr;
   justify-content: center;
   align-items: center;
+  margin: 0 -200px;
 `;
 export const Area_Change_Car = styled.div`
   display: flex;

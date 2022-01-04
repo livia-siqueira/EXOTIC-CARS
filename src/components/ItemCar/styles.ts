@@ -19,6 +19,12 @@ export const Container = styled.button`
       0% 0% no-repeat;
     
   }
+
+  @media(max-width: 1000px){
+    margin: 10px auto;  
+  }
+
+
 `;
 
 export const Container_TextHover = styled.div`
@@ -41,6 +47,7 @@ export const Content = styled.div`
   }
 `;
 
+
 export const Container_Details = styled.div`
   display: flex;
   justify-content: space-between;
@@ -55,6 +62,7 @@ export const Text_Brand = styled.span`
   color: ${({ theme }) => theme.colors.title_principal};
   font-weight: bold;
   font-size: 1.2rem;
+  
 `;
 
 export const Container_Image = styled.div`
@@ -99,4 +107,8 @@ export const Text_Period = styled.span`
 
 export const Simbol = styled.span`
   font-size: 1rem;
+  position: relative;
+  right: 2%;
+  bottom: 8px;
+  font-weight: bold;
 `;

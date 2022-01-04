@@ -1,47 +1,82 @@
-import React, { useCallback, useEffect } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { Button } from "../ButtonMain";
-import * as s from './styles';
-import {IoCalendarSharp, IoLocationSharp} from "../../shared/Icons/"
+import * as s from "./styles";
+import {
+  AiOutlineArrowLeft,
+  IoCalendarSharp,
+  IoLocationSharp,
+} from "../../shared/Icons/";
 import { getAllCars } from "../../services/api/loads/allCars";
 import { getCarsAsync } from "../../store/reducers/car/thunk";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../store/types";
+import { Location } from "../Location";
+import { FiMenu, AiOutlineSearch } from "../../shared/Icons/";
+
+const MenuLateral = () => {
+  const [menu, setMenu] = useState(false);
+  const [location, setLocation] = useState(false);
+  const changeState = useCallback(() => {
+    menu ? setMenu(false) : setMenu(true);
+  }, [menu]);
+
+  const changeStateLocation = useCallback(() => {
+    location ? setLocation(false) : setLocation(true);
+  }, [location]);
+
+  return (
+    <s.Container_Menu>
+      <s.ButtonMenu onClick={changeStateLocation}>
+        <AiOutlineSearch size={24} />
+      </s.ButtonMenu>
+      <s.ButtonMenu onClick={changeState}>
+        <FiMenu size={24} />
+      </s.ButtonMenu>
+      {location && (
+        <s.AreaSearchClicked>
+          <Location />
+        </s.AreaSearchClicked>
+      )}
+      <s.Content_Menu>
+        {menu && (
+          <s.Menu>
+            <s.Button>Sign Up</s.Button>
+            <s.Button>Sign in</s.Button>
+          </s.Menu>
+        )}
+      </s.Content_Menu>
+    </s.Container_Menu>
+  );
+};
 
 export const Header = () => {
-    const dispatch : AppDispatch = useDispatch();
-    const cars = useSelector((state: RootState) => state.cars)
-    
-    const handleCars = useCallback(() => {
-        dispatch(getCarsAsync());
-    }, [])
+  const dispatch: AppDispatch = useDispatch();
+  const cars = useSelector((state: RootState) => state.cars);
 
-    useEffect(() => {
-       handleCars();
-    }, [handleCars])
-    console.log(cars);
-    return (
-        <s.Container>
-            <s.Content>
-                <s.Container_Titles>
-                <s.TitlePrincipal>exotic</s.TitlePrincipal>
-                <s.TitleSecondary>cars</s.TitleSecondary>
-                </s.Container_Titles>
-                <s.Local_Details>
-                    <s.Content_Local_Details>
-                    <IoLocationSharp color="#C4C4C4"/><s.Text_Local_Details>North Carolina, NC 90025</s.Text_Local_Details>
-                    </s.Content_Local_Details>
-                    <s.Content_Local_Details>
-                   <IoCalendarSharp color="#C4C4C4" size={18} /> <s.Text_Local_Details_Date>11/03/2021</s.Text_Local_Details_Date>
-                   </s.Content_Local_Details>
-                   <s.Content_Local_Details>
-                  <IoCalendarSharp color="#C4C4C4" size={18}/>  <s.Text_Local_Details_Date>12/12/2021</s.Text_Local_Details_Date>
-                  </s.Content_Local_Details>
-                </s.Local_Details>
-                <s.Container_Buttons>
-                    <Button title="Sign up"/>
-                    <Button title="Sign in"/>
-                </s.Container_Buttons>
-            </s.Content>
-        </s.Container>
-    )
-}
+  const handleCars = useCallback(() => {
+    dispatch(getCarsAsync());
+  }, []);
+
+  useEffect(() => {
+    handleCars();
+  }, [handleCars]);
+  console.log(cars);
+  return (
+    <s.Container>
+      <s.Content>
+        <s.Container_Titles>
+          <s.TitlePrincipal>exotic</s.TitlePrincipal>
+          <s.TitleSecondary>cars</s.TitleSecondary>
+        </s.Container_Titles>
+        <s.AreaSearch>
+          <Location />
+        </s.AreaSearch>
+        <MenuLateral />
+        <s.Container_Buttons>
+          <Button title="Sign up" />
+          <Button title="Sign in" />
+        </s.Container_Buttons>
+      </s.Content>
+    </s.Container>
+  );
+};
