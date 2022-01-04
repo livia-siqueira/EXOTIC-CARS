@@ -1,5 +1,5 @@
 import { api } from "../..";
-import {Car, CarAPI} from '../../../../shared/types';
+import {CarAPI} from '../../../../shared/types';
 
 
 

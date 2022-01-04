@@ -48,7 +48,7 @@ export const Header = () => {
 
   const handleCars = useCallback(() => {
     dispatch(getCarsAsync());
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     handleCars();

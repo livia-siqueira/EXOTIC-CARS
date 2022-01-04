@@ -1,4 +1,4 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+import { SwiperSlide } from "swiper/react";
 import * as s from "./styles";
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
@@ -48,17 +48,22 @@ export const SliderCars = (props: {
             1100: {
               slidesPerView: images?.length,
             },
-            600: {
-              slidesPerView: images ? images.length - 1 : 0,
+            1000: {
+              slidesPerView: 2,
+            },
+            360: {
+              slidesPerView: 1,
+            },
+            500: {
+              slidesPerView: 1,
             },
             1340: {
-              slidesPerView: 3,
+              slidesPerView: images?.length,
             },
           }}
         >
           {images?.map((imageDetails, index) => {
             const hasBig = index === props.indexActive;
-            console.log(hasBig);
             return (
               <SwiperSlide key={imageDetails.color} style={{ height: "auto" }}>
                 <s.Slide>

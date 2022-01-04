@@ -23,8 +23,7 @@ export const Container_Details = styled.div`
   flex-direction: column;
   margin-left: 10px;
   @media (max-width: 370px) {
-   flex-direction: column;
-   
+    flex-direction: column;
   }
 `;
 
@@ -41,6 +40,12 @@ export const ImageBrand = styled.img`
     height: 100px;
     margin-left: 3rem;
     margin-bottom: 20px;
+  }
+  @media (max-width: 400px) {
+    width: 50px;
+    height: 80px;
+    margin-left: 3rem;
+    margin-bottom: 0px;
   }
 `;
 
@@ -62,9 +67,10 @@ export const Container_Body = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media(max-width: 1000px){
+  @media (max-width: 1000px) {
     flex-direction: column;
-
+    gap: 20px;
+    margin-top: 30px;
   }
 `;
 
@@ -93,30 +99,34 @@ export const Description = styled.div`
     font-size: 15px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 640px) {
     right: 20%;
     bottom: 65%;
-    font-size: 15px;
-   
   }
   @media (max-width: 370px) {
     right: 10%;
     bottom: 65%;
+    font-size: 15px;
+  }
+  @media (max-width: 400px) {
+    right: 20%;
+    bottom: 65%;
+    font-size: 15px;
   }
 `;
 export const Number = styled.span`
   font-size: 3rem;
   font-weight: bold;
 
-  @media (max-width: 370px) {
-   font-size: 1rem;
+  @media (max-width: 600px) {
+    font-size: 1rem;
   }
 `;
 export const Color = styled.span`
   text-transform: uppercase;
   font-size: 30px;
-  @media (max-width: 370px) {
-   font-size: 1rem;
+  @media (max-width: 600px) {
+    font-size: 1rem;
   }
 `;
 
@@ -136,24 +146,32 @@ export const Button = styled.button<typeColorButton>`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-right: 80px;
   color: ${({ theme, fullFilling }) =>
     fullFilling ? theme.colors.white : theme.colors.title_principal};
+  box-shadow: 0px 5px 20px #0000001a;
   @media (max-width: 1400px) {
     font-size: 12px;
   }
-  @media (max-width: 370px) {
-   font-size: 8px;
-   width: 45%;
-   padding: 2px;
-   height: 30px;
-   border-radius: 10px;
+  @media (max-width: 400px) {
+    font-size: 8px;
+    width: 55%;
+    padding: 2px;
+    height: 50px;
+    border-radius: 10px;
   }
   @media (max-width: 900px) {
-    font-size: 1rem;
-   width: 25%;
-   padding: 2px;
-   height: 30px;
-   border-radius: 10px;
+    font-size: 0.8rem;
+    width: 35%;
+    padding: 2px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  @media (max-width: 370px) {
+    font-size: 10px;
+  }
+  @media (max-width: 1000px) {
+    margin-right: 0px;
   }
 `;
 

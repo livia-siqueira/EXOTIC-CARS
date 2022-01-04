@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

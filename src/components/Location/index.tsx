@@ -1,6 +1,6 @@
 import { IoCalendarSharp, IoLocationSharp } from "../../shared/Icons";
 import * as s from "./styles";
-import { FiMenu, AiOutlineSearch } from "../../shared/Icons/";
+import { AiOutlineSearch } from "../../shared/Icons/";
 
 
 

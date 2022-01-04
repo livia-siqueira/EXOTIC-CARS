@@ -20,7 +20,7 @@ export const DetailsCars = () => {
     (index: number) => {
       setCarActive(index);
     },
-    [carActive]
+    []
   );
 
   return (
@@ -38,7 +38,7 @@ export const DetailsCars = () => {
         </s.Container_Type>
         <s.Container_Body>
           <s.Button onClick={() => navigate("/")} fullFilling = {false}>
-            <AiOutlineArrowLeft color="gray" size={24} />
+            <AiOutlineArrowLeft color="#313136" size={24} />
             Back to Catalog
           </s.Button>
           <s.Container_BookNow>
@@ -49,7 +49,7 @@ export const DetailsCars = () => {
             />
             <s.Button onClick={() => navigate("/")} fullFilling = {true} >
             Book Now
-              <AiOutlineArrowRight color="gray" size={24} />
+              <AiOutlineArrowRight color="white" size={24} />
             </s.Button>
           </s.Container_BookNow>
         </s.Container_Body>

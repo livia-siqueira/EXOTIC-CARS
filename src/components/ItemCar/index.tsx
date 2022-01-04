@@ -1,8 +1,5 @@
 import * as s from "./styles";
-import { Car } from "../../shared/types";
-import { FiMoreHorizontal } from "../../shared/Icons/";
-import { useNavigate } from "react-router";
-import { useCallback } from "react";
+import { FiMoreHorizontal, Car } from "@shared/";
 
 interface CarItem {
   car: Car;
@@ -10,12 +7,6 @@ interface CarItem {
 }
 
 export const ItemCar = ({ car, changePageForCar }: CarItem) => {
-  const navigate = useNavigate();
-
-  const handleCarDetails = useCallback(() => {
-    navigate("/car");
-  }, []);
-
 
   return (
     <s.Container onClick={changePageForCar.bind(this, car.id)}>

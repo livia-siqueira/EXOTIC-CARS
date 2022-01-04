@@ -21,7 +21,7 @@ export const Home = () => {
       <Header />
       <s.Content>
         {cars.map((car) => (
-          <ItemCar car={car} changePageForCar={handleCarDetails} />
+          <ItemCar key={car.id} car={car} changePageForCar={handleCarDetails} />
         ))}
       </s.Content>
     </s.Container>

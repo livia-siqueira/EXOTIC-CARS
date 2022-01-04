@@ -1,6 +1,5 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit"
 import { Car, CarAPI} from "../../../shared/types"
-import { getCarsAsync } from "./thunk"
 
 
 type initialStateT = {
@@ -23,7 +22,7 @@ const carsReducer = createSlice({
             return state;
         },
         getCar: (state, action: PayloadAction<{id: number}>) => {
-            const carActual = state.cars.find((car) => car.id === action.payload.id);
+            const carActual = state.cars.find(({id}) => id === action.payload.id);
             if(carActual) state.carSelected = carActual
             return state;
         }

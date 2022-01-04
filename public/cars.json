@@ -33,23 +33,18 @@
             "brand": "Porsche",
             "period": "day",
             "price": "725",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/yNXhcSx/logoFerrari.png",
             "cover_photo": "https://i.ibb.co/5Gb5s8z/porsheLaranja.png",
             "photos": [
                 {
                     
                     "color": "yellow",
-                    "photo": ""
-                },
-                {
-                    
-                    "color": "white",
-                    "photo": "https://i.ibb.co/FK9cnnF/bmwbranco.png"
+                    "photo": "https://i.ibb.co/x5Kyv2f/ferrariAmarela.png"
                 },
                 {
                     
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/SdMmhFb/ferraricinza.png"
                 }
             ]
         },
@@ -58,7 +53,7 @@
             "model": "M1 COMPETITION",
             "brand": "BMW",
             "price": "825",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/yNXhcSx/logoFerrari.png",
             "cover_photo": "https://i.ibb.co/2FLvM5s/BMWBranca.png",
             "period": "day",
             "photos": [
@@ -74,21 +69,23 @@
             "brand": "Porsche",
             "period": "day",
             "price": "825",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/yNXhcSx/logoFerrari.png",
             "cover_photo": "https://i.ibb.co/MpPkxSG/porsheGT3.png",
             "photos": [
                 {
-                    "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
+                    
+                    "color": "yellow",
+                    "photo": "https://i.ibb.co/x5Kyv2f/ferrariAmarela.png"
                 },
                 {
                     
-                    "color": "yellow",
-                    "photo": ""
+                    "color": "red",
+                    "photo": "https://i.ibb.co/vJ865Zy/CapaFerrariVermelha.png"
                 },
                 {
+                    
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/SdMmhFb/ferraricinza.png"
                 }
             ]
         },
@@ -98,20 +95,23 @@
             "brand": "Alfa Romeo",
             "period": "day",
             "price": "825",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/yNXhcSx/logoFerrari.png",
             "cover_photo": "https://i.ibb.co/Qdn0W8W/AlfaRomeoAmarelo.png",
             "photos": [
                 {
-                    "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
-                },
-                {
+                    
                     "color": "yellow",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/x5Kyv2f/ferrariAmarela.png"
                 },
                 {
+                    
+                    "color": "red",
+                    "photo": "https://i.ibb.co/vJ865Zy/CapaFerrariVermelha.png"
+                },
+                {
+                    
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/SdMmhFb/ferraricinza.png"
                 }
             ]
         },
@@ -121,20 +121,23 @@
             "brand": "Mercedes-benz",
             "period": "day",
             "price": "725",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/CKR9HHW/logo.png",
             "cover_photo": "https://i.ibb.co/NZhLBHR/MercedesCinza.png",
             "photos": [
                 {
-                    "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
-                },
-                {
+                    
                     "color": "yellow",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/x5Kyv2f/ferrariAmarela.png"
                 },
                 {
+                    
+                    "color": "red",
+                    "photo": "https://i.ibb.co/vJ865Zy/CapaFerrariVermelha.png"
+                },
+                {
+                    
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/SdMmhFb/ferraricinza.png"
                 }
             ]
         },
@@ -144,20 +147,20 @@
             "brand": "Rolls-Royce",
             "period": "day",
             "price": "725",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/CKR9HHW/logo.png",
             "cover_photo": "https://i.ibb.co/cTrTdvT/RoyalVermelho.png",
             "photos": [
                 {
                     "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
+                    "photo": "https://i.ibb.co/0yr0CyM/aventadorred.png"
                 },
                 {
-                    "color": "yellow",
-                    "photo": ""
+                    "color": "laranja",
+                    "photo": "https://i.ibb.co/562n6NV/aventador-Laranja-Certo.png"
                 },
                 {
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/4NmCyds/aventadorcinza.png"
                 }
             ]
         }
@@ -189,20 +192,20 @@
             "brand": "Pagani",
             "period": "day",
             "price": "925",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/CKR9HHW/logo.png",
             "cover_photo": "https://i.ibb.co/kDZTdnw/pagani-verde.png",
             "photos": [
                 {
                     "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
+                    "photo": "https://i.ibb.co/0yr0CyM/aventadorred.png"
                 },
                 {
-                    "color": "yellow",
-                    "photo": ""
+                    "color": "laranja",
+                    "photo": "https://i.ibb.co/562n6NV/aventador-Laranja-Certo.png"
                 },
                 {
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/4NmCyds/aventadorcinza.png"
                 }
             ]
         },  {
@@ -211,20 +214,20 @@
             "brand": "Chevrolet",
             "period": "day",
             "price": "925",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/CKR9HHW/logo.png",
             "cover_photo": "https://i.ibb.co/16rvmG3/Corvet-Branco.png",
             "photos": [
                 {
                     "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
+                    "photo": "https://i.ibb.co/0yr0CyM/aventadorred.png"
                 },
                 {
-                    "color": "yellow",
-                    "photo": ""
+                    "color": "laranja",
+                    "photo": "https://i.ibb.co/562n6NV/aventador-Laranja-Certo.png"
                 },
                 {
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/4NmCyds/aventadorcinza.png"
                 }
             ]
         },
@@ -234,20 +237,20 @@
             "brand": "Mclaren",
             "period": "day",
             "price": "925",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/CKR9HHW/logo.png",
             "cover_photo": "https://i.ibb.co/QcrSWBw/mcLarenAzul.png",
             "photos": [
                 {
                     "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
+                    "photo": "https://i.ibb.co/0yr0CyM/aventadorred.png"
                 },
                 {
-                    "color": "yellow",
-                    "photo": ""
+                    "color": "laranja",
+                    "photo": "https://i.ibb.co/562n6NV/aventador-Laranja-Certo.png"
                 },
                 {
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/4NmCyds/aventadorcinza.png"
                 }
             ]
         },
@@ -257,20 +260,20 @@
             "period": "day",
             "brand": "Bentley",
             "price": "825",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/CKR9HHW/logo.png",
             "cover_photo": "https://i.ibb.co/TkVMXZy/BekleyAzul.png",
             "photos": [
                 {
                     "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
+                    "photo": "https://i.ibb.co/0yr0CyM/aventadorred.png"
                 },
                 {
-                    "color": "yellow",
-                    "photo": ""
+                    "color": "laranja",
+                    "photo": "https://i.ibb.co/562n6NV/aventador-Laranja-Certo.png"
                 },
                 {
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/4NmCyds/aventadorcinza.png"
                 }
             ]
         },
@@ -280,20 +283,20 @@
             "brand": "Maclaren",
             "period": "day",
             "price": "825",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/CKR9HHW/logo.png",
             "cover_photo": "https://i.ibb.co/L51NRFs/mclarenAzul-720s.png",
             "photos": [
                 {
                     "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
+                    "photo": "https://i.ibb.co/0yr0CyM/aventadorred.png"
                 },
                 {
-                    "color": "yellow",
-                    "photo": ""
+                    "color": "laranja",
+                    "photo": "https://i.ibb.co/562n6NV/aventador-Laranja-Certo.png"
                 },
                 {
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/4NmCyds/aventadorcinza.png"
                 }
             ]
         },
@@ -322,23 +325,16 @@
             "brand": "Ford",
             "period": "day",
             "price": "725",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/CKR9HHW/logo.png",
             "cover_photo": "https://i.ibb.co/Y028BHP/mustangpreto.png",
             "photos": [
                 {
-                    
                     "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
+                    "photo": "https://i.ibb.co/0yr0CyM/aventadorred.png"
                 },
                 {
-                    
-                    "color": "yellow",
-                    "photo": ""
-                },
-                {
-                    
                     "color": "gray",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/4NmCyds/aventadorcinza.png"
                 }
             ]
         },
@@ -348,16 +344,16 @@
             "brand": "Bugatti",
             "period": "day",
             "price": "925",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/CKR9HHW/logo.png",
             "cover_photo": "https://i.ibb.co/Qj49tJ8/BuggatiAzul.png",
             "photos": [
                 {
                     "color": "red",
-                    "photo": "./imagesCar/01/Group 67.png"
+                    "photo": "https://i.ibb.co/mRNDYwf/gallardored.png"
                 },
                 {
                     "color": "yellow",
-                    "photo": ""
+                    "photo": "https://i.ibb.co/99J6QRM/gallardoyellowcerto.png"
                 }
             ]
         }
