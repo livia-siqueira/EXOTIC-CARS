@@ -1,11 +1,9 @@
 import { useSelector } from "react-redux";
-import { Header } from "../../components/Header";
 import { RootState } from "../../store/types";
 import * as s from "./styles";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "../../shared/Icons/";
-import { useCallback, useEffect, useState } from "react";
-import { Photo } from "../../shared/types";
-import { SliderCars } from "../../components/SliderCars";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "@shared/";
+import { useCallback, useState } from "react";
+import { SliderCars , Header} from "@components/";
 import { useNavigate } from "react-router";
 
 export const DetailsCars = () => {

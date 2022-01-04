@@ -45,12 +45,15 @@ export const SliderCars = (props: {
             nextEl: btNext.current,
           }}
           breakpoints={{
-            1000: {
+            1100: {
               slidesPerView: images?.length,
             },
             600: {
-                slidesPerView: images ? images.length - 1: 0,
-            }
+              slidesPerView: images ? images.length - 1 : 0,
+            },
+            1340: {
+              slidesPerView: 3,
+            },
           }}
         >
           {images?.map((imageDetails, index) => {

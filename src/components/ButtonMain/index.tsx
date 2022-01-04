@@ -1,4 +1,3 @@
-import React from "react";
 import * as s from './styles';
 
 interface propsButton {

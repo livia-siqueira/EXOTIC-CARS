@@ -38,8 +38,9 @@ export const Slide = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  @media(max-width: 360px){
-      width: 150px;
+  @media(max-width: 1345px){
+      width: 200px;
+      height: auto;
       margin: 0;
   }
 `;
@@ -78,6 +79,14 @@ export const ButtonsSlider = styled.button<Button>`
   box-shadow: 0px 5px 15px #0000001a;
   margin-left: 10%;
   margin-right: 10%;
+
+  @media(max-width: 1000px){
+    width: 2rem;
+    height: 2rem;
+    padding: 2px;
+    margin-left: 2px;
+  margin-right: 2px;
+  }
 `;
 
 export const Container_Button = styled.button`

@@ -1,17 +1,10 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { Button } from "../ButtonMain";
+import { Button, Location } from "@components/";
 import * as s from "./styles";
-import {
-  AiOutlineArrowLeft,
-  IoCalendarSharp,
-  IoLocationSharp,
-} from "../../shared/Icons/";
-import { getAllCars } from "../../services/api/loads/allCars";
 import { getCarsAsync } from "../../store/reducers/car/thunk";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../store/types";
-import { Location } from "../Location";
-import { FiMenu, AiOutlineSearch } from "../../shared/Icons/";
+import { FiMenu, AiOutlineSearch } from "@shared/";
 
 const MenuLateral = () => {
   const [menu, setMenu] = useState(false);

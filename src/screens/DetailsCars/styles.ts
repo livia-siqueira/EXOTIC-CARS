@@ -21,6 +21,11 @@ export const Content = styled.div`
 export const Container_Details = styled.div`
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
+  @media (max-width: 370px) {
+   flex-direction: column;
+   
+  }
 `;
 
 export const Container_Type = styled.div`
@@ -32,8 +37,10 @@ export const Container_Type = styled.div`
 
 export const ImageBrand = styled.img`
   @media (max-width: 1400px) {
-    width: 100px;
-    height: 120px;
+    width: 80px;
+    height: 100px;
+    margin-left: 3rem;
+    margin-bottom: 20px;
   }
 `;
 
@@ -53,12 +60,22 @@ export const Price = styled.span`
 export const Container_Body = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  @media(max-width: 1000px){
+    flex-direction: column;
+
+  }
 `;
 
 export const ImageUp = styled.img`
   @media (max-width: 1400px) {
     width: 380px;
     height: 180px;
+  }
+  @media (max-width: 400px) {
+    width: 280px;
+    height: 150px;
   }
 `;
 
@@ -73,21 +90,34 @@ export const Description = styled.div`
 
   @media (max-width: 1000px) {
     margin: 0;
-    margin-bottom: 50%;
+    font-size: 15px;
   }
 
-  @media (max-width: 1100px) {
-    right: 50%;
+  @media (max-width: 600px) {
+    right: 20%;
+    bottom: 65%;
+    font-size: 15px;
+   
+  }
+  @media (max-width: 370px) {
+    right: 10%;
     bottom: 65%;
   }
 `;
 export const Number = styled.span`
   font-size: 3rem;
   font-weight: bold;
+
+  @media (max-width: 370px) {
+   font-size: 1rem;
+  }
 `;
 export const Color = styled.span`
   text-transform: uppercase;
   font-size: 30px;
+  @media (max-width: 370px) {
+   font-size: 1rem;
+  }
 `;
 
 type typeColorButton = {
@@ -110,6 +140,20 @@ export const Button = styled.button<typeColorButton>`
     fullFilling ? theme.colors.white : theme.colors.title_principal};
   @media (max-width: 1400px) {
     font-size: 12px;
+  }
+  @media (max-width: 370px) {
+   font-size: 8px;
+   width: 45%;
+   padding: 2px;
+   height: 30px;
+   border-radius: 10px;
+  }
+  @media (max-width: 900px) {
+    font-size: 1rem;
+   width: 25%;
+   padding: 2px;
+   height: 30px;
+   border-radius: 10px;
   }
 `;
 
