@@ -12,7 +12,7 @@ export const DefaultThemeExoticCars = {
         title_principal: '#313136',
         gradient_principal: '#A1A7F4',
         gradient_secundary: '#E6D3F1',
-    },
+            },
     fonts: {
         primary: 'Segoe UI'
     }

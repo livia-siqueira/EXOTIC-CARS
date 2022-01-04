@@ -12,4 +12,8 @@ export const Content = styled.div`
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @media(max-width: 1000px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `

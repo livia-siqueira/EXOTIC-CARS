@@ -5,19 +5,23 @@
             "model": "California",
             "brand": "Ferrari",
             "price": "725",
+            "period": "day",
             "logo_brand": "https://i.ibb.co/yNXhcSx/logoFerrari.png",
             "cover_photo": "https://i.ibb.co/nQy93vJ/Ferrari.png",
             "cover_photo_upgrade": "https://i.ibb.co/2cVrQBd/ferrari2x.png",
             "photos": [
                 {
+                    
                     "color": "yellow",
                     "photo": "https://i.ibb.co/x5Kyv2f/ferrariAmarela.png"
                 },
                 {
+                    
                     "color": "red",
                     "photo": "https://i.ibb.co/vJ865Zy/CapaFerrariVermelha.png"
                 },
                 {
+                    
                     "color": "gray",
                     "photo": "https://i.ibb.co/SdMmhFb/ferraricinza.png"
                 }
@@ -27,19 +31,23 @@
             "id": 2,
             "model": "911 TURBO S",
             "brand": "Porsche",
+            "period": "day",
             "price": "725",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/5Gb5s8z/porsheLaranja.png",
             "photos": [
                 {
+                    
                     "color": "yellow",
                     "photo": ""
                 },
                 {
+                    
                     "color": "white",
                     "photo": "https://i.ibb.co/FK9cnnF/bmwbranco.png"
                 },
                 {
+                    
                     "color": "gray",
                     "photo": ""
                 }
@@ -52,18 +60,11 @@
             "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/2FLvM5s/BMWBranca.png",
+            "period": "day",
             "photos": [
-                {
-                    "color": "azul",
-                    "photo": "https://i.ibb.co/2cQXzVZ/bmwazul.png"
-                },
                 {
                     "color": "white",
                     "photo": "https://i.ibb.co/FK9cnnF/bmwbranco.png"
-                },
-                {
-                    "color": "red",
-                    "photo": "https://i.ibb.co/stNNdqQ/bmwvermelha.png"
                 }
             ]
         },
@@ -71,6 +72,7 @@
             "id": 4,
             "model": "911 GT3 RS",
             "brand": "Porsche",
+            "period": "day",
             "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/MpPkxSG/porsheGT3.png",
@@ -80,6 +82,7 @@
                     "photo": "./imagesCar/01/Group 67.png"
                 },
                 {
+                    
                     "color": "yellow",
                     "photo": ""
                 },
@@ -93,6 +96,7 @@
             "id": 5,
             "model": "4C SPIDER",
             "brand": "Alfa Romeo",
+            "period": "day",
             "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/Qdn0W8W/AlfaRomeoAmarelo.png",
@@ -115,6 +119,7 @@
             "id": 6,
             "model": "AMG GTS",
             "brand": "Mercedes-benz",
+            "period": "day",
             "price": "725",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/NZhLBHR/MercedesCinza.png",
@@ -137,6 +142,7 @@
             "id": 7,
             "model": "WRAITH",
             "brand": "Rolls-Royce",
+            "period": "day",
             "price": "725",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/cTrTdvT/RoyalVermelho.png",
@@ -159,8 +165,9 @@
             "id": 8,
             "model": "AVENTADOR",
             "brand": "Lamborghini",
+            "period": "day",
             "price": "925",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/2dGNLMc/Lamborghini-Logo.png",
             "cover_photo": "https://i.ibb.co/Mn5N18b/lamborLaranja.png",
             "photos": [
                 {
@@ -180,6 +187,7 @@
             "id": 9,
             "model": "Hudray",
             "brand": "Pagani",
+            "period": "day",
             "price": "925",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/kDZTdnw/pagani-verde.png",
@@ -201,6 +209,7 @@
             "id": 10,
             "model": "CORVETT",
             "brand": "Chevrolet",
+            "period": "day",
             "price": "925",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/16rvmG3/Corvet-Branco.png",
@@ -223,6 +232,7 @@
             "id": 11,
             "model": "P1 GTR",
             "brand": "Mclaren",
+            "period": "day",
             "price": "925",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/QcrSWBw/mcLarenAzul.png",
@@ -244,6 +254,7 @@
         {
             "id": 12,
             "model": "CONTINENTAL GT",
+            "period": "day",
             "brand": "Bentley",
             "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
@@ -267,6 +278,7 @@
             "id": 13,
             "model": "720S",
             "brand": "Maclaren",
+            "period": "day",
             "price": "825",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/L51NRFs/mclarenAzul-720s.png",
@@ -289,8 +301,9 @@
             "id": 14,
             "model": "Gallardo",
             "brand": "Lamborghini",
+            "period": "day",
             "price": "825",
-            "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
+            "logo_brand": "https://i.ibb.co/2dGNLMc/Lamborghini-Logo.png",
             "cover_photo": "https://i.ibb.co/3fpgM9N/Lamborghini-Gallardo-Amarelo.png",
             "photos": [
                 {
@@ -300,10 +313,6 @@
                 {
                     "color": "yellow",
                     "photo": "https://i.ibb.co/99J6QRM/gallardoyellowcerto.png"
-                },
-                {
-                    "color": "gray",
-                    "photo": "https://i.ibb.co/rk25GqT/lamborghini-gallardocinza.png"
                 }
             ]
         },
@@ -311,19 +320,23 @@
             "id": 15,
             "model": "Mustang 2019",
             "brand": "Ford",
+            "period": "day",
             "price": "725",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/Y028BHP/mustangpreto.png",
             "photos": [
                 {
+                    
                     "color": "red",
                     "photo": "./imagesCar/01/Group 67.png"
                 },
                 {
+                    
                     "color": "yellow",
                     "photo": ""
                 },
                 {
+                    
                     "color": "gray",
                     "photo": ""
                 }
@@ -333,6 +346,7 @@
             "id": 16,
             "model": "VEYRON SPYDER",
             "brand": "Bugatti",
+            "period": "day",
             "price": "925",
             "logo_brand": "./imagesCar/01/NoPath - Copia (10)@2x.png",
             "cover_photo": "https://i.ibb.co/Qj49tJ8/BuggatiAzul.png",
@@ -343,10 +357,6 @@
                 },
                 {
                     "color": "yellow",
-                    "photo": ""
-                },
-                {
-                    "color": "gray",
                     "photo": ""
                 }
             ]

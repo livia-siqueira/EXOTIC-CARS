@@ -13,6 +13,7 @@ export type Car = {
      model: string,
      brand: string,
      price: number,
+     period: string,
      logo_brand: string,
      photos: Photo[],
      capa: string,

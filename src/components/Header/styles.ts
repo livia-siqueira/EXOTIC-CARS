@@ -15,7 +15,8 @@ box-shadow: ${({theme}) => theme.colors.gray_ligth} 0 10px 30px;
 export const TitlePrincipal = styled.h1`
 text-transform: uppercase;
 font-size: 2rem;
-font: normal normal 600 24px/32px ${({theme}) => theme.fonts.primary};
+color: ${({theme}) => theme.fonts.primary};
+font-weight: 600;
 `;
 
 export const Container_Titles = styled.div`
@@ -33,7 +34,10 @@ align-items: center;
 
 export const TitleSecondary = styled.h4`
 text-transform: uppercase;
-
+font-size: 1rem;
+margin-top: 0.8rem;
+margin-left: 8px;
+font-weight: 100;
 `;
 
 export const Content = styled.div`
