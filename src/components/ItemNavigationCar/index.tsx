@@ -1,9 +1,9 @@
 import * as s from './styles'
 
-export const ItemCarNavigation = (props : {imageUrl: string}) => {
+export const ItemCarNavigation : React.FC<{imageUrl: string}> = ({imageUrl}) => {
     return (
         <s.Container>
-            <s.Image src={props.imageUrl}/>
+            <s.Image src={imageUrl}/>
         </s.Container>
     )
 }

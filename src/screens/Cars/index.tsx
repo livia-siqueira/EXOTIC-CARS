@@ -5,7 +5,7 @@ import { getCar } from "../../store/reducers/car";
 import { AppDispatch, RootState } from "../../store/types";
 import * as s from "./styles";
 
-export const Home = () => {
+export const Home : React.FC= () => {
 
   const dispatch: AppDispatch = useDispatch();
   const navigate = useNavigate();

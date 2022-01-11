@@ -3,18 +3,16 @@ import * as s from "./styles";
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
 import "swiper/css";
-// Import Swiper styles
-
 import { Photo } from "../../shared/types";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "../../shared/Icons";
 import { useRef } from "react";
 
-export const SliderCars = (props: {
+export const SliderCars: React.FC<{
   ImagesCar: Photo[] | null;
   handleGoCar(index: number): void;
   indexActive: number;
-}) => {
-  const images = props.ImagesCar;
+}> = ({ ImagesCar, handleGoCar, indexActive }) => {
+  const images = ImagesCar;
   const btNext = useRef<HTMLButtonElement>(null);
   const btPrev = useRef<HTMLButtonElement>(null);
   const qtdImage = images ? images.length : 0;
@@ -39,7 +37,7 @@ export const SliderCars = (props: {
           slidesPerView={images?.length === 2 ? 2 : 1}
           spaceBetween={qtdImage === 2 ? 20 : qtdImage === 3 ? 80 : 0}
           slideToClickedSlide
-          onTransitionEnd={(swiper) => props.handleGoCar(swiper.realIndex)}
+          onTransitionEnd={(swiper) => handleGoCar(swiper.realIndex)}
           navigation={{
             prevEl: btPrev.current,
             nextEl: btNext.current,
@@ -63,7 +61,7 @@ export const SliderCars = (props: {
           }}
         >
           {images?.map((imageDetails, index) => {
-            const hasBig = index === props.indexActive;
+            const hasBig = index === indexActive;
             return (
               <SwiperSlide key={imageDetails.color} style={{ height: "auto" }}>
                 <s.Slide>

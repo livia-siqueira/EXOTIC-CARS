@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "../../shared/Icons/";
 
 
 
-export const Location = () => {
+export const Location : React.FC = () => {
   return (
     <s.Local_Details>
       <s.Content_Local_Details>

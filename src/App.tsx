@@ -8,12 +8,11 @@ import { RouterApp } from "./routes";
 function App() {
   return (
     <>
-    
-    <ThemeProvider theme={DefaultThemeExoticCars}>
-      <GlobalStyle />
-      <Provider store={store}>
-        <RouterApp/>
-      </Provider>
+      <ThemeProvider theme={DefaultThemeExoticCars}>
+        <GlobalStyle />
+        <Provider store={store}>
+          <RouterApp />
+        </Provider>
       </ThemeProvider>
     </>
   );

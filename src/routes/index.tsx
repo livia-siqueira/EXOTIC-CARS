@@ -1,7 +1,7 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import {DetailsCars, Home} from '@screen/'
 
-export const RouterApp = () => {
+export const RouterApp : React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>

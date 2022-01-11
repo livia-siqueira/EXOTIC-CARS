@@ -2,11 +2,11 @@ import React, { useCallback, useEffect, useState } from "react";
 import { Button, Location } from "@components/";
 import * as s from "./styles";
 import { getCarsAsync } from "../../store/reducers/car/thunk";
-import { useDispatch, useSelector } from "react-redux";
-import { AppDispatch, RootState } from "../../store/types";
+import { useDispatch } from "react-redux";
+import { AppDispatch } from "../../store/types";
 import { FiMenu, AiOutlineSearch } from "@shared/";
 
-const MenuLateral = () => {
+const MenuLateral : React.FC = () => {
   const [menu, setMenu] = useState(false);
   const [location, setLocation] = useState(false);
   const changeState = useCallback(() => {
@@ -42,9 +42,8 @@ const MenuLateral = () => {
   );
 };
 
-export const Header = () => {
+export const Header : React.FC = () => {
   const dispatch: AppDispatch = useDispatch();
-  const cars = useSelector((state: RootState) => state.cars);
 
   const handleCars = useCallback(() => {
     dispatch(getCarsAsync());
@@ -53,7 +52,6 @@ export const Header = () => {
   useEffect(() => {
     handleCars();
   }, [handleCars]);
-  console.log(cars);
   return (
     <s.Container>
       <s.Content>

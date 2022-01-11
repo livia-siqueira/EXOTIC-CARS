@@ -6,7 +6,7 @@ interface CarItem {
   changePageForCar(id: number) : void;
 }
 
-export const ItemCar = ({ car, changePageForCar }: CarItem) => {
+export const ItemCar : React.FC<CarItem> = ({ car, changePageForCar }) => {
 
   return (
     <s.Container onClick={changePageForCar.bind(this, car.id)}>
