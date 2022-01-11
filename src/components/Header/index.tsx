@@ -6,9 +6,9 @@ import { useDispatch } from "react-redux";
 import { AppDispatch } from "../../store/types";
 import { FiMenu, AiOutlineSearch } from "@shared/";
 
-const MenuLateral : React.FC = () => {
-  const [menu, setMenu] = useState(false);
-  const [location, setLocation] = useState(false);
+const MenuLateral: React.FC = () => {
+  const [menu, setMenu] = useState<boolean>(false);
+  const [location, setLocation] = useState<boolean>(false);
   const changeState = useCallback(() => {
     menu ? setMenu(false) : setMenu(true);
   }, [menu]);
@@ -42,7 +42,7 @@ const MenuLateral : React.FC = () => {
   );
 };
 
-export const Header : React.FC = () => {
+export const Header: React.FC = () => {
   const dispatch: AppDispatch = useDispatch();
 
   const handleCars = useCallback(() => {

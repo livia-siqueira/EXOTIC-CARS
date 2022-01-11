@@ -11,7 +11,7 @@ export const DetailsCars: React.FC = () => {
   const [carActive, setCarActive] = useState<number>(
     carSelected?.photos.length === 1 ? 0 : 1
   );
-  const navigate = useNavigate();
+  const navigate  = useNavigate();
   let urlBrand: string = "";
 
   if (carSelected) {

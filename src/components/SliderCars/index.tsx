@@ -12,10 +12,10 @@ export const SliderCars: React.FC<{
   handleGoCar(index: number): void;
   indexActive: number;
 }> = ({ ImagesCar, handleGoCar, indexActive }) => {
-  const images = ImagesCar;
+  const images : Photo[] | null = ImagesCar;
   const btNext = useRef<HTMLButtonElement>(null);
   const btPrev = useRef<HTMLButtonElement>(null);
-  const qtdImage = images ? images.length : 0;
+  const qtdImage : number = images ? images.length : 0;
 
   return (
     <>
@@ -61,7 +61,7 @@ export const SliderCars: React.FC<{
           }}
         >
           {images?.map((imageDetails, index) => {
-            const hasBig = index === indexActive;
+            const hasBig : boolean = index === indexActive;
             return (
               <SwiperSlide key={imageDetails.color} style={{ height: "auto" }}>
                 <s.Slide>
